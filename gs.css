@@ -1,48 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-.speech{
-    background-color:yellow;
+.speech{font-family: sans-serif; font-size: 12px;color: black;}
+.song{font-family: sans-serif; font-size: 12px;color: black;}
+.duet{font-family: sans-serif; font-size: 12px;color:blueviolet;}
+.scene{font-family: sans-serif; font-size: 12px;color:green;}
 
-}
-<body>
-< div = "speech">
-</div>
-
-</style>
-</head>
-<head>
-<style>
-.song{
-
-}
-<div="song">
-</div>
-</style>
-</head>
-<head>
-<style>
-.direction{
-
-}
-<div="directions">
-</div>
-</style>
-</head>
-<head>
-<style>
 .name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size:15px;
+    color: black;
+    
+}
+.name:hover{
+    border: solid 2px rgb(91, 53, 109);
+    text-shadow: 3px 3px 3px orange;
+}
+.direction{background-color: beige;font-family: 'Courier New', Courier, monospace; font-size: 10px;color: black;}
+.direction:hover{
+    background-color: aqua;
+    color:blue
 
 }
-<div="name">
-</div>
-</style>
-</head>
-</body>
-<head>
-<link rel="stylesheet" href="styles.css">
-<title> Friends Page</title>
-</head>
-<body>ss
-</html>
+.Fitz{  
+    color: aquamarine;
+}
+.Zara{
+    color: rgb(85, 83, 212);
+}
+.King{
+    color:rgb(6, 95, 43);
+}
+table,td,th{
+    margin: 1px solid black;
+    padding: 2px;
+    border: 3px solid rgb(114, 113, 113);
+    text-align: center;
+    
+}
+td{
+    color: rgb(136, 72, 72);
+}
+th{
+    color:brown;
+}
+tr:nth-child(even){
+    background-color: rgb(250, 227, 200);
+}
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin: 1px;
+    padding: 2px;
+}
+ul.navbar-horizontal li{
+    float: left;
+    color: rgb(68, 64, 64);
+    background-color: rgb(175, 157, 192);
+}
+ul.navbar-horizontal a{
+    display: block;
+    padding: 3px;
+}
+ul.navbar-horizontal a:hover{
+    background-color: rgb(90, 51, 2);
+    color: whitesmoke;
+}
+.icon{
+    float: right;
+}
+
